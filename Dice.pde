@@ -75,7 +75,7 @@ class Die //models one single dice cube
   void show()
   {
     fill(255,255,255);
-    square(myX, myY, 25);
+    rect(myX, myY, 25, 25);
     rollNum = (int)(Math.random()*6)+1;
    // System.out.println(rollNum);
     //your code here
